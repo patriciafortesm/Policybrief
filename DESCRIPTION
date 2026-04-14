@@ -1,0 +1,20 @@
+Package: policybrief
+Title: Create Professional Policy Briefs in HTML
+Version: 0.1.0
+Authors@R: 
+    person("EMERGE", "Team", email = "emerge@example.com", role = c("aut", "cre"))
+Description: Generate publication-ready policy briefs as standalone HTML documents.
+    Designed for researchers and public policy managers who need to communicate 
+    research findings to non-specialized audiences. Provides a standardized 
+    structure (cover, executive summary, context, findings, recommendations, 
+    institutional info) with customizable colors, logos, images, and section content.
+    Follows World Bank and international policy brief best practices.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    htmltools,
+    base64enc
+Suggests:
+    knitr
