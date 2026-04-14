@@ -12,7 +12,9 @@ devtools::install_github("patriciafortesm/policybrief")
 
 ## Example output
 
-![Policy Brief Example](man/figures/example_policy_brief.png)
+<p align="center">
+  <img src="example_policy_brief.png" alt="Example Policy Brief" width="800"/>
+</p>
 
 *Generated entirely from R — cover, executive summary, key findings, recommendations, and back cover.*
 
